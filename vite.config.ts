@@ -5,7 +5,7 @@ import mkcert from 'vite-plugin-mkcert';
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  base: '/reactjs-template/',
+  base: '/', // 改为根路径，适用于Vercel部署
   css: {
     preprocessorOptions: {
       scss: {
